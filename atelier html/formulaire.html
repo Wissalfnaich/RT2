@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+    <FORM ACTION="insat.html" METHOD="post">
+    <h1 style="text-align: center;">Inscription en license</h1>
+    <fieldset>
+        <legend style="text-align: center;">Informations personnelles</legend>
+  <center> 
+       <label>Votre nom:</label><input type="text" placeholder="votre nom?"> <br><br>
+
+    <label>Votre prenom:</label><input type="text" placeholder="votre Prenom?" ><br><br>
+
+    <label>Votre age:</label><input type="number" placeholder="votre age"><br><br>
+
+     <label>Votre adresse</label><textarea name="votre adresse" placeholder="votre adresse?" rows="5" cols="40"></textarea><br>
+
+    <label>Mot de passe</label><input type="password" required> <br> <br>
+
+   <label>Retapez votre mot de passe</label><input type="password"><br> <br>
+   <label>Votre mail</label><input type="email"> <br> <br>
+
+   <label>URL</label><input type="url" >  <br> <br> 
+   <label>date de naissance</label><input type="date"> <br> <br>
+   <label>secure</label><input type="text" pattern="[I][N][S][A][T][0-9]{4}"><br> <br>
+</center>
+
+  
+</fieldset>
+<fieldset>
+    <legend style="text-align: center;">Gestion des groupes et des options</legend>
+     <center>
+    <label>Votre groupe:</label><input type="radio"> groupe1<input type="radio" > groupe2 <input type="radio"> groupe3 <br> <br>
+    <label>Numero de carte d'etudiant</label><input type="text" placeholder="Numero de carte d'etudiant?">   <br> <br>
+    <label >Choisissez les options que vous désirer</label>
+    <select size="4">
+        <option value="Android">Android
+        <option value="html">html
+        <option value="css">css
+        <option value="js">js
+        <option value="php">php
+    </select>
+
+
+
+     </center>
+</fieldset>
+<center><input type="submit" value="valider" > <input type="reset" value="renitialiser"></center>
+</FORM>
+</body>
+</html>
